@@ -1,0 +1,144 @@
+h1,h2,h3,p,ul,figcaption,figure {
+    text-align: center;
+  }
+
+  head {
+    background-color: #7bafd4;
+    color: #1b1b32;
+    font-family: Helvetica, sans-serif;
+    padding:20px;
+  }
+  
+  body {
+    background-color: #7bafd4;
+    color: #1b1b32;
+    font-family: Helvetica, sans-serif;
+    padding:20px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  .info {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+    padding: 20px;
+   
+  }
+  .type {
+    text-align: left;
+    width: 25%;
+
+  }
+
+  h1  {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom:15px;
+  }
+  h2  {
+    font-size: 30px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.project {
+    text-align: right;
+    width: 75%;
+  }
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+   }
+   hr {
+    height: 2px;
+    background-color: black;
+    border-color: black;
+  }
+  .bottom-line {
+    margin-top:25px;
+  }
+/*Registration form*/
+
+.registration  {
+  width: 100%;
+  height: 100vh; 
+  margin: 1emauto;
+  text-align: center;
+  background-color: #7bafd4 ;
+  color:#1b1b32; 
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+}
+.inline {
+  width: unset;
+  margin-right: 0.5em;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+label{
+  display:block; 
+  margin: 0.5rem 0;
+}
+
+fieldset {
+  border: 10px;
+  padding: 0 0;
+  border-bottom: 3px solid #1b1b32
+
+}
+
+
+ input, textarea, select {
+  width: 100%;
+  margin-top: 1px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+ }
+ input,
+ textarea{
+   background-color: white;
+   border: solid 1px #1b1b32 ;
+   color: black;
+   min-height: 2em;
+ }
+
+  /*FOOTER*/
+
+footer {
+  font-size:14px;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+}
+a:visited { 
+  color: grey; 
+}
+
+a:hover { 
+  color: grey; 
+}
+
+.address {
+  margin-bottom: 5px;
+}
